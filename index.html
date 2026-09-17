@@ -19,6 +19,43 @@
                 </div>   
                 <h1>Formulário de Matrícula</h1>
                 <p>Preencha os dados abaixo para matricular seu filho na escola de educação infantil Estrelas do Amanhã.</p>
+                <form method="post" enctype="multipart/form-data">
+                    <fieldset class="child-info">
+                        <legend>Informações da Criança</legend>
+                        <div class="input-wrapper">
+                            <label for="child-name">Nome da Criança</label>
+                            <input type="text" id="child-name" name="child-name" required placeholder="Nome completo da criança">
+                        </div>
+
+                        <div class="input-wrapper">
+                            <label for="child-birthdate">Data de Nascimento</label>
+                            <input type="date" id="child-birthdate" name="child-birthdate" required lang="pt-BR">
+                        </div>
+
+                        <div class="select-wrapper">
+                            <label for="gender">Sexo</label>
+                            <select id="gender" name="gender" required>
+                                <option value="">Selecione</option>
+                                <option value="male">Masculino</option>
+                                <option value="female">Feminino</option>
+                            </select>
+                        </div>
+
+                        <div class="textArea-wrapper">
+                            <label for="child-notes">Observações</label>
+                            <textarea id="child-notes" name="child-notes" 
+                            cols="30" rows="10" placeholder="Alguma observação sobre a criança?"></textarea>
+                        </div>
+
+                        <div class="droparea-wrapper">
+                            <label for="child-photo">Foto da Criança</label>
+                            <input type="file" id="child-photo" 
+                            name="child-photo" accept="image/*">
+                            <img src="assets/icons/cloud-upload.svg" alt="">
+                            <p>Clique aqui para <br> selecionar os arquivos.</p>
+                        </div>
+                    </fieldset>
+                </form>
             </div>
         </main>
 
