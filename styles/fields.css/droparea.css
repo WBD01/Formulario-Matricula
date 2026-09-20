@@ -35,6 +35,9 @@
 
     & svg path{
         stroke: #f3541c;
+
+        border: 1px solid var(--stroke-default);
+        color: var(--text-primary);
     }
     
     }
