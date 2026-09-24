@@ -2,7 +2,7 @@
 
 <p align="center">
 Aplicação desenvolvida por Wagner Fagundes em treinamento para aprendizado e aperfeiçoamento em tecnologias WEB. <br/>
-<a href="#">Estude esse projeto em formato de vídeo clicando aqui.</a>
+<a href="https://wbd01.github.io/Formulario-Matricula/">Veja o projeto finalizado e documentação através deste link.</a>
 </p>
 
 
